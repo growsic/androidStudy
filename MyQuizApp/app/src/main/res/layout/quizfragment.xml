@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/quizfragment">
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/view_text"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="quizFragment"
+            android:layout_column="26" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/question"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="question"
+        android:autoText="false"
+        android:clickable="false"
+        android:gravity="center"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/question_text"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="question"
+        android:autoText="false"
+        android:clickable="false"
+        android:gravity="center"
+        android:textSize="40dp" />
+
+
+    <Button
+        android:id="@+id/choice1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="choice1"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/choice2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="choice2"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/choice3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="choice3"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/choice4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="choice4"
+        android:layout_gravity="center_horizontal|bottom" />
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <Button
+            android:id="@+id/checkAnswerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="button"
+            android:layout_gravity="right|top"
+            android:layout_column="26" />
+    </TableRow>
+
+</TableLayout>
