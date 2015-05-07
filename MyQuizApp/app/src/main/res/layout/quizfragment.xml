@@ -19,11 +19,30 @@
     </TableRow>
 
     <TextView
+<<<<<<< HEAD
         android:id="@+id/description"
 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="description"
+=======
+        android:id="@+id/question"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="question"
+        android:autoText="false"
+        android:clickable="false"
+        android:gravity="center"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/question_text"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="question"
+>>>>>>> d758304cbe46a2cc70be1fcf492072cae45fc4fb
         android:autoText="false"
         android:clickable="false"
         android:gravity="center"

@@ -9,11 +9,20 @@
         android:layout_height="wrap_content" />
 
     <Button
+<<<<<<< HEAD
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="back Button"
     android:id="@+id/backButton"
     android:layout_centerVertical="true"
     android:layout_centerHorizontal="true" />
+=======
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="back Button"
+        android:id="@+id/backButton"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+>>>>>>> d758304cbe46a2cc70be1fcf492072cae45fc4fb
 
 </RelativeLayout>

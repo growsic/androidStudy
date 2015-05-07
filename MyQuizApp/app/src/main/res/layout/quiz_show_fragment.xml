@@ -15,6 +15,7 @@
             tools:context=".QuizActivity" tools:ignore="MergeRootFrame" >
 
 
+<<<<<<< HEAD
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -33,6 +34,16 @@
                 android:layout_centerHorizontal="true"
                 android:layout_gravity="right|bottom" />
         </FrameLayout>
+=======
+        </FrameLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="exit"
+            android:id="@+id/exitButton"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+>>>>>>> d758304cbe46a2cc70be1fcf492072cae45fc4fb
 
 
     </RelativeLayout>
